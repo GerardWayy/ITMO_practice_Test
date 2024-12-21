@@ -29,13 +29,13 @@ public class Main {
        //     System.out.println(b);
        // }
         
-        int b = 1;
+        int b = 5;
         
-        if(b%2==0 && b > 100){
+        if(b%2==0 && b > 100 && b!=0){
             System.out.println("Выход за пределы диапазона");
-        }else if (b%2!=0) {
+        }else if (b%2!=0 && b!=0) {
             System.out.println("Нечетное");
-        }else if(b%2==0){
+        }else if(b%2==0 && b!=0){
             System.out.println("Четное");
         }
     }
