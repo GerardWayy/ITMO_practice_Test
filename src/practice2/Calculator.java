@@ -2,35 +2,51 @@ package practice2;
 
 public class Calculator {
 
-    public static double sum(int a, long b) {
+    public static double sum(int a, int b) {
         return a + b;
     }
 
-    public static double test(double a, int b) {
+    public static double test(double a, double b) {
         return a + b;
     }
 
-    public static double minus(double a, int b) {
+    public static double test(long a, long b) {
+        return a + b;
+    }
+
+    public static double minus(double a, double b) {
         return a - b;
     }
 
-    public static double minus(double a, long b) {
+    public static double minus(long a, long b) {
         return a - b;
     }
 
-    public static double del(double a, long b) {
+    public static double minus(int a, int b) {
+        return a - b;
+    }
+
+    public static double del(double a, double b) {
         return a / b;
     }
 
-    public static double del(int a, long b) {
-        return a / b;
+    public static double del(int a, int b) {
+        return (double) a / b;
     }
 
-    public static double mult(double a, long b) {
+    public static double del(long a, long b) {
+        return (double) a / b;
+    }
+
+    public static double mult(double a, double b) {
         return a * b;
     }
 
-    public static double mult(double a, int b) {
+    public static double mult(int a, int b) {
+        return a * b;
+    }
+
+    public static double mult(long a, long b) {
         return a * b;
     }
 
