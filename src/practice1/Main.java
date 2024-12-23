@@ -12,8 +12,8 @@ public class Main {
         double number1 = (46 + 10) * (10 / 3);
         int number2 = (29) * (4) * (-15);
 
-        int number = 10500;
-        double result = (number / 10) / 10;
+        int number = 3;
+        double result =  ((double)number / 10) / 10;
 
         System.out.println(result);
 
