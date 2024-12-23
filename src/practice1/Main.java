@@ -9,33 +9,34 @@ public class Main {
         System.out.println("знаю");
         System.out.println("Java.");
 
-        int number1 = (46 + 10) * (10 / 3);
+        double number1 = (46 + 10) * (10 / 3);
         int number2 = (29) * (4) * (-15);
 
         int number = 10500;
-        int result =  (number / 10) / 10;
+        double result = (number / 10) / 10;
 
         System.out.println(result);
 
         double result1 = 3.6 * 4.1 * 5.9;
 
         Scanner scanner = new Scanner(System.in);
-        for (int i = 0;i<3;i++ ){
+        while (scanner.hasNextInt()) {
             int b = scanner.nextInt();
             System.out.println(b);
         }
-        // while (scanner.hasNextInt()) {
-       //     int b = scanner.nextInt();
-       //     System.out.println(b);
-       // }
-        
+        //for (int i = 0; i < 3; i++) {
+        //   int b = scanner.nextInt();
+        //   System.out.println(b);
+        // }
+
+
         int b = 5;
-        
-        if(b%2==0 && b > 100 && b!=0){
+
+        if (b % 2 == 0 && b > 100 && b != 0) {
             System.out.println("Выход за пределы диапазона");
-        }else if (b%2!=0 && b!=0) {
+        } else if (b % 2 != 0 && b != 0) {
             System.out.println("Нечетное");
-        }else if(b%2==0 && b!=0){
+        } else if (b % 2 == 0 && b != 0) {
             System.out.println("Четное");
         }
     }
