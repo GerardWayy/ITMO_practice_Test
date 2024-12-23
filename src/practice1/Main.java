@@ -10,9 +10,10 @@ public class Main {
         System.out.println("Java.");
 
         double number1 = (46 + 10) * (10 / 3);
+
         int number2 = (29) * (4) * (-15);
 
-        int number = 3;
+        int number = 10500;
         double result =  ((double)number / 10) / 10;
 
         System.out.println(result);
