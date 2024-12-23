@@ -6,11 +6,11 @@ public class Calculator {
         return a + b;
     }
 
-    public static double test(double a, double b) {
+    public static double sum(double a, double b) {
         return a + b;
     }
 
-    public static double test(long a, long b) {
+    public static double sum(long a, long b) {
         return a + b;
     }
 
