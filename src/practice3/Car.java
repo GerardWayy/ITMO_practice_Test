@@ -19,10 +19,22 @@ public class Car {
         this.color = color;
     }
 
+    public Car(int weight, String color, String name) {
+        this.weight = weight;
+        this.color = color;
+        this.name = name;
+
+    }
+
     public void printAll(){
-        System.out.println(color);
+        System.out.println(this.color + " " + this.weight + " " + this.name);
+
     }
     public static void main(String[] args) {
+        Car car = new Car(35, "red", "lad");
+        Car car1 = new Car(35,"blue", "fer");
+        car.printAll();
+        car1.printAll();
 
     }
 }
