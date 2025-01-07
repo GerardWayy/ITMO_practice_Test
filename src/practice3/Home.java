@@ -15,20 +15,22 @@ public class Home {
 
     }
 
-  /*  public  String print(){
-        return floor + year + name;
-    }*/
-    public void print1(){
-        System.out.println(this.year + " " + this.floor+" " + this.name);
+    /*  public  String print(){
+          return floor + year + name;
+      }*/
+    public void print1() {
+        System.out.println(this.year + " " + this.floor + " " + this.name);
     }
+
     public int GetAge() {
         return Calendar.getInstance().get(Calendar.YEAR) - year;
     }
 
+    //
     public static void main(String[] args) {
         Home home = new Home();
         Home home1 = new Home();
-        home1.home(13,2000,"Zlato");
+        home1.home(13, 2000, "Zlato");
         home.home(10, 1995, "Zoloto");
         home.print1();
         home1.print1();

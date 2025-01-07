@@ -26,13 +26,14 @@ public class Car {
 
     }
 
-    public void printAll(){
+    public void printAll() {
         System.out.println(this.color + " " + this.weight + " " + this.name);
 
     }
+
     public static void main(String[] args) {
         Car car = new Car(35, "red", "lad");
-        Car car1 = new Car(35,"blue", "fer");
+        Car car1 = new Car(35, "blue", "fer");
         car.printAll();
         car1.printAll();
 
