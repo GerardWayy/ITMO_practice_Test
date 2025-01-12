@@ -21,7 +21,7 @@ public class Words {
     }
 
     public static boolean isPalindrome(String s) {
-        return s.equals((new StringBuilder(s)).reverse().toString());
+        return s.equalsIgnoreCase((new StringBuilder(s)).reverse().toString());
 
     }
 
@@ -47,19 +47,19 @@ public class Words {
     }
 
     public static void main(String[] args) {
-        System.out.println(Words.reversWords("CAT DOG"));
-        Words.longestWord("fewfeowj wefewf efew few ewfew e");
-        Words.isPalindrome("faffff");
-        Words.replaceText();
+        //   System.out.println(Words.reversWords("CAT DOG"));
+      //  Words.longestWord("fewfeowj wefewf efew few ewfew e");
+        System.out.println(Words.isPalindrome("Топот"));
+      //  Words.replaceText();
 
 
-        Scanner scanner = new Scanner(System.in);
+      /*  Scanner scanner = new Scanner(System.in);
 
         String word = scanner.next();
         String word1 = scanner.next();
         int count1 = count(word, word1);
         System.out.println(count1);
 
-        scanner.close();
+        scanner.close(); */
     }
 }
