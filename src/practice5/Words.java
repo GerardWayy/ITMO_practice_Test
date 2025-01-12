@@ -27,7 +27,9 @@ public class Words {
 
     public static void replaceText() {
         Scanner scanner = new Scanner(System.in);
-        String text = scanner.nextLine().replaceAll("бяка", "[вырезано цензурой]");
+        String t1 = scanner.nextLine();
+        String t2 = scanner.nextLine();
+        String text = scanner.nextLine().replaceAll(t1, t2);
         System.out.println(text);
     }
 
@@ -47,19 +49,19 @@ public class Words {
     }
 
     public static void main(String[] args) {
-        //   System.out.println(Words.reversWords("CAT DOG"));
-      //  Words.longestWord("fewfeowj wefewf efew few ewfew e");
+        System.out.println(Words.reversWords("CAT DOG"));
+        Words.longestWord("fewfeowj wefewf efew few ewfew e");
         System.out.println(Words.isPalindrome("Топот"));
-      //  Words.replaceText();
+        Words.replaceText();
 
 
-      /*  Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         String word = scanner.next();
         String word1 = scanner.next();
         int count1 = count(word, word1);
         System.out.println(count1);
 
-        scanner.close(); */
+        scanner.close();
     }
 }
